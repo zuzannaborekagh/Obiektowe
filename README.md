@@ -1,7 +1,7 @@
 # Obiektowe
 ## 1. Gra przygodowa
 ### Opis
-Prosta gra w konsoli - dwuwymiarowa plansza z graczem, potworami i ścianami. Gracz może chodzić po mapie (ale nie przechodzić przez ściany), odpoczywać lub atakować potwory. Potwory są obdarzone prostą sztuczną inteligencją i polują na gracza.
+Prosta gra w konsoli - dwuwymiarowa plansza z graczem, potworami i ścianami. Gracz ma kilka możliwych akcji: chodzić po mapie (ale nie przechodzić przez ściany), odpoczywać lub atakować potwory. Potwory są obdarzone prostą sztuczną inteligencją i polują na gracza.
 
 ### Sterowanie
 Postacią sterujemy za pomocą konsoli, wprowadzając odpowiednie znaki (np. WASD, R). Próba przejścia na kratkę z potworem oznacza zaatakowanie tego potwora.
@@ -15,6 +15,8 @@ Szybkość mówi, ile kratek dana istota może przejść w trakcie jednej tury (
 Na jednym polu na mapie może znajdować się albo ściana albo gracz albo potwór.
 
 ### Potwory
+Istnieją (co najmniej) 2 gatunki potworów. Szybkie, ale słabe gremliny oraz wolne, ale silne orki. Potwory tego samego gatunku mają takie same wartości atrybutów.
+
 Potwory wyczuwają gracza i jeśli jest w określonej odległości, to zaczynają go gonić (idą w jego stronę).
 Jeśli potwory sąsiadują z graczem (są na sąsiednim polu), to będą go atakować.
 Na końcu tury potwór może albo zaatakować gracza (jeśli z nim sąsiaduje), podejść do niego lub - jeśli nie wyczuwa gracza - czekać.
@@ -40,6 +42,12 @@ S.......S.................S
 SSSSSSSSSSSSSSSSSSSSSSSSSSS
 
 </code>
+
+### Zadanie dodatkowe
+Wprowadzić prosty system ekwipunku. Na wolnych polach leżą czasem przydatne przedmioty.
+
+Wprowadzić nową akcję dla gracza - podnieś (np. T). Kiedy gracz stoi na polu z przedmiotem może go wziąć do ręki (zajmuje to turę). Automatycznie upuszcza wtedy przedmiot, który właśnie trzymał.
+Jeśli przedmiot to mikstura albo zwój, to może jej użyć za pomocą akcji użyj (np. U).
 
 ## 2. Kooperacja
 ### Opis
@@ -79,4 +87,6 @@ Po zapauzowaniu gry możemy zobaczyć ranking, który pokazuje liczbę przebytyc
 |     5.         	|     WIPI       	|     M       	|     56      	|     -2p.     	|     2            	|
 
 
+### Zadanie dodatkowe
+Wprowadzić rodziny. Osoby z tej samej rodziny dużo częściej kooperują i mają wspólne pierwsze 3 litery imienia. Można zobaczyć ranking dla rodzin, gdzie wynik jest sumą punktów wszystkich członków rodziny.
 
