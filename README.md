@@ -67,7 +67,8 @@ Typy osobowości:
 ### Ranking
 Po zapauzowaniu gry możemy zobaczyć ranking, który pokazuje liczbę przebytych tur oraz osoby z największą liczbą punktów i ich osobowości.
 
-> Liczba tur: 13
+**Liczba tur: 13**
+
 |     POZYCJA    	|     IMIĘ       	|     PŁEĆ    	|     WIEK    	|     WYNIK    	|     OSOBOWOŚĆ    	|
 |----------------	|----------------	|-------------	|-------------	|--------------	|------------------	|
 |     1.         	|     TRTIKJD    	|     K       	|     18      	|     30p.     	|     1            	|
