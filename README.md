@@ -51,7 +51,7 @@ Gdy jedna osoba kooperuje, a druga oszuka, to oszust dostaje +3 punkty, a ofiara
 Jeśli obie oszukają, to tracą po jednym punkcie.
 
 ### Rozgrywka
-Na początku tworzymy N postaci, każda z własną osobowością, losowym imieniem (ciąg znaków), wiekiem i płcią. W trakcie gry postacie losowo wchodzą ze sobą w interakcję i podejmują decyzję o kooperacji lub oszustwie.
+Na początku losowa tworzymy N postaci, każda z własną osobowością, imieniem (ciąg znaków), wiekiem i płcią. W trakcie gry postacie losowo wchodzą ze sobą w interakcję i podejmują decyzję o kooperacji lub oszustwie.
 Każda osoba ma 5% szansy na pomyłkę przy interakcji (robi odwrotnie niż powinna).
 Ich interakcję widzi losowa grupa osób i na tej podstawie może wyrobić sobie o nich opinię. Postacie pamiętają wszystkie interakcje, w których brały udział, i których były świadkami.
 
@@ -59,11 +59,11 @@ Ich interakcję widzi losowa grupa osób i na tej podstawie może wyrobić sobie
 Osobowość mówi o tym, czy i kogo dana osoba oszuka.
 Typy osobowości:
 	W interakcji z drugą osobą A
-	*1. Zawsze oszukuje A (5% POPULACJI)
-	*2. Zawsze kooperuje z A (5% POPULACJI)
-	*3. Kooperuje z A, o ile nigdy nie widziała, że A oszukuje (10% POPULACJI)
-	*4. Kooperuje z A, o ile widziała, że A kooperuje w 90% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
-	*5. Kooperuje z A, o ile widziała, że A kooperuje w 67% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
+*1. Zawsze oszukuje A (5% POPULACJI)
+*2. Zawsze kooperuje z A (5% POPULACJI)
+*3. Kooperuje z A, o ile nigdy nie widziała, że A oszukuje (10% POPULACJI)
+*4. Kooperuje z A, o ile widziała, że A kooperuje w 90% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
+*5. Kooperuje z A, o ile widziała, że A kooperuje w 67% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
 
 ### Ranking
 Po zapauzowaniu gry możemy zobaczyć ranking, który pokazuje liczbę przebytych tur oraz osoby z największą liczbą punktów i ich osobowości.
