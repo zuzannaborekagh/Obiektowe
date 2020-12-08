@@ -59,11 +59,11 @@ Ich interakcję widzi losowa grupa osób i na tej podstawie może wyrobić sobie
 Osobowość mówi o tym, czy i kogo dana osoba oszuka.
 Typy osobowości:
 	W interakcji z drugą osobą A
-	1. Zawsze oszukuje A (5% POPULACJI)
-	2. Zawsze kooperuje z A (5% POPULACJI)
-	3. Kooperuje z A, o ile nigdy nie widziała, że A oszukuje (10% POPULACJI)
-	4. Kooperuje z A, o ile widziała, że A kooperuje w 90% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
-	5. Kooperuje z A, o ile widziała, że A kooperuje w 67% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
+	*1. Zawsze oszukuje A (5% POPULACJI)
+	*2. Zawsze kooperuje z A (5% POPULACJI)
+	*3. Kooperuje z A, o ile nigdy nie widziała, że A oszukuje (10% POPULACJI)
+	*4. Kooperuje z A, o ile widziała, że A kooperuje w 90% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
+	*5. Kooperuje z A, o ile widziała, że A kooperuje w 67% przypadków (lub nigdy jej nie widziała) (40% POPULACJI)
 
 ### Ranking
 Po zapauzowaniu gry możemy zobaczyć ranking, który pokazuje liczbę przebytych tur oraz osoby z największą liczbą punktów i ich osobowości.
