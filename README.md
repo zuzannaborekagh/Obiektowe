@@ -1,13 +1,16 @@
 # Obiektowe
 ## 1. Gra przygodowa
 ### Opis
-Prosta gra w konsoli - plansza z graczem, potworami i ścianami. Postać może chodzić po mapie (ale nie przechodzić przez ściany), odpoczywać lub atakować potwory.
-Postacią sterujemy za pomocą konsoli, wprowadzając odpowiednie znaki (np. WASD, R).
-Rozgrywka
+Prosta gra w konsoli - dwuwymiarowa plansza z graczem, potworami i ścianami. Gracz może chodzić po mapie (ale nie przechodzić przez ściany), odpoczywać lub atakować potwory. Potwory są obdarzone prostą sztuczną inteligencją i polują na gracza.
+
+### Sterowanie
+Postacią sterujemy za pomocą konsoli, wprowadzając odpowiednie znaki (np. WASD, R). Próba przejścia na kratkę z potworem oznacza zaatakowanie tego potwora.
+
+### Rozgrywka
 Gra jest turowa i każda akcja gracza (atak, odpoczynek lub krok) powoduje start następnej tury.
-Gracz i potwory mają swoje własne punkty życia i atrybuty - siła, szybkość i maksymalna liczba punktów życia. 
-Siła mówi nam, jak wiele punktów życia dana postać odbiera przeciwnikowi przy ataku.
-Szybkość mówi, ile kratek może przejść w trakcie jednej tury (gracz ma szybkość 1). Jeśli szybkość wynosi mniej niż 1, to potwór losuje, czy zatrzyma się w miejscu, czy przejdzie 1 kratkę.
+Gracz i potwory (istoty) mają swoje własne punkty życia i atrybuty - siła, szybkość i maksymalna liczba punktów życia. 
+Siła mówi nam, jak wiele punktów życia dana istota odbiera przeciwnikowi przy ataku.
+Szybkość mówi, ile kratek dana istota może przejść w trakcie jednej tury (gracz ma szybkość 1). Jeśli szybkość ma część ułamkową, to gra losuje, czy istota zatrzyma się w miejscu, czy przejdzie jeszcze 1 kratkę.
 
 Na jednym polu na mapie może znajdować się albo ściana albo gracz albo potwór.
 
@@ -20,7 +23,8 @@ Na końcu tury potwór może albo zaatakować gracza (jeśli z nim sąsiaduje), 
 Jeśli gracz odpocznie w danej turze, to zregeneruje jeden punkt życia.
 Gracz umiera, gdy skończą mu się punkty życia. Po śmierci gracza zaczynamy grę od nowa.
 
-### Mapa (dowolna):
+### Mapa
+Mapa jest losowo generowana. Powinna istnieć ścieżka pomiędzy dowolnymi dwoma polami na mapie (poza ścianami). Przykład:
 SSSSSSSSSSSSSSSSSSSSSSSSSSS
 S..SSSSSSS...........P....S
 S..@......................S
