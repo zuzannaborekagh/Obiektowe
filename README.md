@@ -25,9 +25,11 @@ Gracz umiera, gdy skończą mu się punkty życia. Po śmierci gracza zaczynamy 
 
 ### Mapa
 Mapa jest losowo generowana. Powinna istnieć ścieżka pomiędzy dowolnymi dwoma polami na mapie (poza ścianami). Przykład:
+<code>
 SSSSSSSSSSSSSSSSSSSSSSSSSSS
 S..SSSSSSS...........P....S
 S..@......................S
 S..SSSSSS.......P.........S
 S.......S.................S
 SSSSSSSSSSSSSSSSSSSSSSSSSSS
+</code>
